@@ -4,7 +4,10 @@ logLevel := Level.Warn
 addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.3.5")
 
 // For publishing to Maven Central
-addSbtPlugin("org.xerial.sbt" % "sbt-sonatype" % "1.1")
+//addSbtPlugin("org.xerial.sbt" % "sbt-sonatype" % "1.1")
 
 // PGP signing
-addSbtPlugin("com.jsuereth" % "sbt-pgp" % "1.0.0")
+//addSbtPlugin("com.jsuereth" % "sbt-pgp" % "1.0.0")
+
+// For publishing to Bintray
+addSbtPlugin("me.lessis" % "bintray-sbt" % "0.3.0")
