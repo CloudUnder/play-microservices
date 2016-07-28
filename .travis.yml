@@ -6,6 +6,8 @@ scala:
 jdk:
   - oraclejdk8
 
+sudo: false
+
 script:
   - sbt clean coverage test coverageReport
 
